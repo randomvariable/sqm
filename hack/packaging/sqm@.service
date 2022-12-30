@@ -7,7 +7,7 @@ After=sys-subsystem-net-devices-%i.device
 
 [Service]
 ExecStart=/usr/bin/sqm -d %i
-ExecStop=/usr/bin/sqm
 
 [Install]
 WantedBy=sys-subsystem-net-devices-%i.device
+WantedBy=multi-user.target
