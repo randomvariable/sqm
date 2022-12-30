@@ -543,6 +543,7 @@ k8s.io/api v0.25.2/go.mod h1:qP1Rn4sCVFwx/xIhe+we2cwBLTXNcheRyYXwajonhy0=
 k8s.io/apimachinery v0.25.2/go.mod h1:hqqA1X0bsgsxI6dXsJ4HnNTBOmJNxyPp8dw3u2fSHwA=
 k8s.io/apimachinery v0.25.3/go.mod h1:jaF9C/iPNM1FuLl7Zuy5b9v+n35HGSh6AQ4HYRkCqwo=
 k8s.io/client-go v0.25.2/go.mod h1:i7cNU7N+yGQmJkewcRD2+Vuj4iz7b30kI8OcL3horQ4=
+k8s.io/code-generator v0.25.2 h1:qEHux0+E1c+j1MhsWn9+4Z6av8zrZBixOTPW064rSiY=
 k8s.io/code-generator v0.25.2/go.mod h1:f61OcU2VqVQcjt/6TrU0sta1TA5hHkOO6ZZPwkL9Eys=
 k8s.io/component-base v0.25.2/go.mod h1:90W21YMr+Yjg7MX+DohmZLzjsBtaxQDDwaX4YxDkl60=
 k8s.io/component-helpers v0.25.3 h1:Ldwi2U50KohMVDKBcVT3zDpIOKFP4bPEy/4Dj4NsoYU=

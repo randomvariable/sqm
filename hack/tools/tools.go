@@ -8,6 +8,5 @@ package tools
 import (
 	_ "github.com/aquasecurity/trivy/cmd/trivy"
 	_ "github.com/golangci/golangci-lint/cmd/golangci-lint"
-	_ "k8s.io/code-generator"
 	_ "mvdan.cc/gofumpt"
 )

@@ -15,7 +15,6 @@ require (
 	github.com/golangci/golangci-lint v1.50.1
 	github.com/magefile/mage v1.14.0
 	github.com/randomvariable/sqm v0.0.0-00010101000000-000000000000
-	k8s.io/code-generator v0.26.0
 	mvdan.cc/gofumpt v0.4.0
 )
 
@@ -471,7 +470,6 @@ require (
 	k8s.io/cli-runtime v0.25.3 // indirect
 	k8s.io/client-go v0.25.3 // indirect
 	k8s.io/component-base v0.25.3 // indirect
-	k8s.io/gengo v0.0.0-20221011193443-fad74ee6edd9 // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20221207184640-f3cff1453715 // indirect
 	k8s.io/kubectl v0.25.3 // indirect
