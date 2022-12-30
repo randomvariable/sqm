@@ -1,7 +1,7 @@
 project_name: sqm
 builds:
 - main: cmd/sqm/main.go
-  binary: trivy
+  binary: sqm
   ldflags:
   - -s -w
   - "-extldflags '-static'"
@@ -22,5 +22,8 @@ nfpms:
   homepage: "https://github.com/randomvariable/sqm"
   maintainer: "Naadir Jeewa <naadir@randovmariable.co.uk>"
   description: "A SQM controller for Linux"
+  contents:
+  - src: hack/packaging/sqm@.service
+    dst: /usr/lib/systemd/system/sqm@.service
 archives:
 - format: tar.gz
