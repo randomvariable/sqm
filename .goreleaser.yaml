@@ -1,0 +1,26 @@
+project_name: sqm
+builds:
+- main: cmd/sqm/main.go
+  binary: trivy
+  ldflags:
+  - -s -w
+  - "-extldflags '-static'"
+  env:
+  - CGO_ENABLED=0
+  goos:
+  - linux
+  goarch:
+  - amd64
+  - arm64
+  goarm:
+  - "7"
+nfpms:
+- formats:
+  - deb
+  - rpm
+  vendor: "Naadir Jeewa"
+  homepage: "https://github.com/randomvariable/sqm"
+  maintainer: "Naadir Jeewa <naadir@randovmariable.co.uk>"
+  description: "A SQM controller for Linux"
+archives:
+- format: tar.gz
