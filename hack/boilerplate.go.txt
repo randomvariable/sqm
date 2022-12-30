@@ -1,3 +1,2 @@
-/*
-Copyright Naadir Jeewa
-*/
+// Copyright 2022 Naadir Jeewa. All Rights Reserved.
+// SPDX-License-Identifier: Apache-2.0
